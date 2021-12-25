@@ -4,10 +4,12 @@ class MatMul{
 		int[][] mat1;
 		int[][] mat2;
 		int[][] mul;
+		// this code is for command line input
 		// int s1=Integer.parseInt(a[0]);
 		// int s2=Integer.parseInt(a[1]);
 		// int s3=Integer.parseInt(a[2]);	
 		// int s4=Integer.parseInt(a[3]);
+		
 		Scanner x= new Scanner(System.in);
 		System.out.println("Please give row of an array 1:-");
 		int s1=x.nextInt();
