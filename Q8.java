@@ -31,7 +31,7 @@ class Car extends Vehicle // inheriting the Vehicle class which is parent and Ca
 }
 
 
-public class Q8
+public class Q8 //demo class
 {
 	public static void main(String ar[])
 	{
