@@ -5,7 +5,7 @@ create student result class with sem and array of marks of type int as member va
 
 class Student{
 	private String en,name;
-	StudentResult[] s;
+	private StudentResult[] s;
 	
 	Student(String e,String n,StudentResult s[])
 	{
@@ -24,7 +24,7 @@ class Student{
 		System.out.println("Name: "+name);
 		for(int i=0;i<s.length;i++)
 		{
-			s[i].display();
+			s[i].display(); //Calling the display function of StudentResult class.
 		}
 		
 	}
@@ -54,8 +54,8 @@ class StudentResult{
 class studentDemo{
 	public static void main(String ar[]){
 		StudentResult sr[]=new StudentResult[2];
-		sr[0] = new StudentResult(1,new int[]{11,14,27});
-		sr[1] = new StudentResult(2,new int[]{13,17,22});
+		sr[0] = new StudentResult(1,new int[]{11,14,27}); //second parameter is an array
+		sr[1] = new StudentResult(2,new int[]{13,17,22}); // putting the multiple semester marks
 		Student s = new Student("E101","JAADU",sr);
 		s.display();
 		
