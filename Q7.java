@@ -1,3 +1,4 @@
+/*simple program to demo initializer block and static initializer block also constructor taking a parameter of it's own class type which is copy constructor*/
 class Rectangle{
 	private int length;
 	private int width;
@@ -5,7 +6,6 @@ class Rectangle{
 	static int count;
 	static{
 		count=0;
-
 	}
 	{
 		count++;
