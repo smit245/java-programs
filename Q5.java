@@ -1,4 +1,4 @@
-
+/*this program is to check the frequancy of a letters in your string*/
 class FrQ5{
 	public static void main(String a[]){
 		String s= new String(a[0]);
